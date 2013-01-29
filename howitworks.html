@@ -3,17 +3,40 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-	<title>How OfflineIMAP works</title>
-	
-  <link rel="stylesheet" href="http://blog.ezyang.com/wp-content/themes/manifest/style.css" type="text/css" media="screen" charset="utf-8" />
+<!--[if lt IE 9]>
+// teach older IEs to render those elements at all (http://diveintohtml5.org/semantics.html#unknown-elements)
+<script>
+  var e = ("abbr,article,aside,audio,canvas,datalist,details," +
+    "figure,footer,header,hgroup,mark,menu,meter,nav,output," +
+    "progress,section,time,video").split(',');
+  for (var i = 0; i < e.length; i++) {
+    document.createElement(e[i]);
+  }
+</script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css" type="text/css" />
 </head>
+
 <body>
+<header>
+  <img id="logo" src="img/logo.png">
+  <hgroup>
+    <h1><a href="http://offlineimap.org">OfflineImap</a></h1>
+    <h2>Syncing IMAP accounts since 2002</h2>
+  </hgroup>
+<nav>
+<a class="reference" href="index.html">Home</a>
+<a class="reference" href="index.html#ref-download" >Download</a>
+<a class="reference" href="index.html#ref-quick-start" >Quick Start</a>
+<a class="reference" href="index.html#ref-documentation" >Documentation</a>
+<a class="reference" href="development.html" >Development</a>
+<a class="reference" href="index.html#ref-links">Links</a>
+</nav>
+</header>
 
 
-<div id="coreContent">
-      <div class="post single hentry">
-        <div class="postContent">
+<section id="content">
           <h3 class="entry-title">How OfflineIMAP works</h3>
           <h4 class="vcard author">by <span class="fn">Edward Z. Yang</span></h4>
           <div class="entry-content">
@@ -74,6 +97,6 @@ OfflineIMAP is SAFE; it uses an algorithm designed to prevent mail loss at all c
 </div>
 </div>
           </div>
-
+</section>
 </body>
 </html>

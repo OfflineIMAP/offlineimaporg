@@ -23,7 +23,7 @@ $(document).ready(function () {
     limit: 5, header: false
   });
 <!-- Disabled mail feed: $('#rssMails').rssfeed('http://rss.gmane.org/messages/excerpts/gmane.mail.imap.offlineimap.general', {limit: 5, header: true});-->
-$('#rssNews').rssfeed('http://news.offlineimap.org/rss.xml', {
+$('#rssNews').rssfeed('https://github.com/OfflineIMAP/offlineimap/releases.atom', {
     limit: 3, header: false, date: true, snippet: true,
   });
 });
